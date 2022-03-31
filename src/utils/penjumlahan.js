@@ -1,3 +1,3 @@
 export const penjumlahan = (variabelSatu, variabelDua) => {
-  return variabelSatu + variabelDua;
-};
+  return variabelSatu + variabelDua
+}
