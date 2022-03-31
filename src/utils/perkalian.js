@@ -1,3 +1,3 @@
-export const pembagian = (variabelSatu, variabelDua) => {
+export const perkalian = (variabelSatu, variabelDua) => {
   return variabelSatu * variabelDua
 }
