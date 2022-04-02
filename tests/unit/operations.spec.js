@@ -2,6 +2,7 @@ import { penjumlahan } from '@/utils/penjumlahan.js'
 import { pengurangan } from '@/utils/pengurangan.js'
 import { pembagian } from '@/utils/pembagian.js'
 import { perkalian } from '@/utils/perkalian.js'
+import { ratarata } from '@/utils/ratarata.js'
 
 describe('Melakukan Perhitungan Operasi Bilangan', () => {
   test('Penjumlahan dua bilangan positif', () => {
@@ -15,5 +16,8 @@ describe('Melakukan Perhitungan Operasi Bilangan', () => {
   })
   test('Perkalian dua bilangan positif', () => {
     expect(perkalian(2, 4)).toBe(8)
+  })
+  test('Rata-rata lima bilangan positif', () => {
+    expect(ratarata(1, 1, 1, 1, 1)).toBe(5)
   })
 })
